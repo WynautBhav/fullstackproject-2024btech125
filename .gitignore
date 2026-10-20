@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# environment variables — never commit
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+build/
+
+# logs & OS junk
+*.log
+.DS_Store
+.vercel
